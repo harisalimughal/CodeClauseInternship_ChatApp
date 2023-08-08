@@ -26,7 +26,7 @@ io.on('connection', socket => {
 
     socket.join(user.room);
 
-    // General welcome
+    // General git 
     socket.emit('message', formatMessage("HarisChatApp", 'Messages are limited to this room! '));
 
     // Broadcast everytime users connects
